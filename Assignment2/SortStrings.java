@@ -1,16 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Assignment2;
 
 import java.util.Arrays;
-
-/**
- *
- * @author Suhel Naryal
- */
 public class SortStrings {
     
     private void merge(String[] arr, int beg, int mid, int end){  
@@ -67,14 +58,8 @@ public class SortStrings {
     public void sort(String[] arr){
         sort(arr, 0, arr.length-1);
     }
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
         String[] arr = {"b", "a", "d", "c"};
-        //Arrays.sort(arr);
         (new SortStrings()).sort(arr);
         System.out.println(Arrays.toString(arr));
     }
