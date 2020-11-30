@@ -1,16 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Assignment2;
 
 import java.util.Scanner;
-
-/**
- *
- * @author Suhel Naryal
- */
 public class CompareStrings {
     
     public int compare(String a, String b){
@@ -32,12 +22,7 @@ public class CompareStrings {
         
         return a.length() - b.length();
     }
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Program to compare two strings");
