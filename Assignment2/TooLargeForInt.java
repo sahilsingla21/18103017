@@ -1,17 +1,15 @@
-
-package Assignment2;
-public class TooLargeForInt {
-    
-    public int findN(){
-        long sum = 0;
-        int i = 1;
-        while(sum <= Integer.MAX_VALUE)
-            sum += i++;
-        
-        return i;
+public class Solution4{
+    public static void main(String[] args){
+        int n=1,res;
+        long sum;
+        while(n<Integer.MAX_VALUE)
+        {
+            sum=((n)*(n+1))/2;
+            if(sum==n*n){
+                res=n;
+            }
+            n++;
+        }
+        System.out.println("The value is: "+n);
     }
-    public static void main(String[] args) {
-        System.out.println(new TooLargeForInt().findN());
-    }
-    
 }
