@@ -17,7 +17,7 @@ public class HailStone {
         return list.toArray(new Integer[list.size()]);
     }
     public static void main(String[] args) {
-
+    //function call
     }
     
 }
